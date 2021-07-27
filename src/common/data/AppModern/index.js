@@ -1,9 +1,9 @@
 /* ------------------------------------ */
 // Navbar data section
 /* ------------------------------------ */
-// import logomain from 'common/assets/image/appModern/logowhite.png';
+import logomain from 'common/assets/image/appModern/logoWhite.png';
 export const navbar = {
-  logo: null,
+  logo: logomain,
   navMenu: [
     {
       id: 1,
@@ -454,7 +454,7 @@ export const testimonial = {
 import chat from 'common/assets/image/appModern/chat.svg';
 import group from 'common/assets/image/appModern/group.svg';
 import github from 'common/assets/image/appModern/github.svg';
-import footerLogo from 'common/assets/image/appModern/logoWhite.png';
+import footerLogo from 'common/assets/image/appModern/logoWhiteFooter.png';
 
 export const footer = {
   widgets: [
