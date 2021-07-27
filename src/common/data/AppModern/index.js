@@ -1,7 +1,7 @@
 /* ------------------------------------ */
 // Navbar data section
 /* ------------------------------------ */
-import logomain from 'common/assets/image/appModern/logoWhite.png';
+import logomain from 'common/assets/image/appModern/logoWhiteFooter.png';
 export const navbar = {
   logo: logomain,
   navMenu: [
