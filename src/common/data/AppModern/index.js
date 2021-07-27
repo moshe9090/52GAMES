@@ -1,9 +1,9 @@
 /* ------------------------------------ */
 // Navbar data section
 /* ------------------------------------ */
-import logo from 'common/assets/image/appModern/logowhite.png';
+// import logomain from 'common/assets/image/appModern/logowhite.png';
 export const navbar = {
-  logo: logo,
+  logo: null,
   navMenu: [
     {
       id: 1,
