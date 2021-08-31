@@ -68,7 +68,7 @@ const Banner = () => {
     });
   };
   return (
-    <BannerWrapper id="home">
+    <BannerWrapper id="homex">
       <Container>
         <BannerContent>
           <Fade up>
@@ -80,15 +80,15 @@ const Banner = () => {
           <Fade up delay={100}>
             <Heading
               as="h1"
-              content="52Games Just for you
-              what's the best way to pass your time
+              content="52Games
+              Every one’s a winner.
               "
             />
           </Fade>
           <Fade up delay={200}>
             <Text
-              content="Welcome we are so excited, to invite you to play with us and our awesome selection of games.
-              "
+              content= "Best collection of mobile games Timeless Classics."
+
             />
           </Fade>
           <Fade up delay={300}>
@@ -118,7 +118,7 @@ const Banner = () => {
         </BannerContent>
         <BannerImage>
           <Fade up delay={100}>
-            {/*<Image src={bannerImg} alt="Banner" />*/}
+            <Image src={bannerImg} alt="Banner" />
           </Fade>
         </BannerImage>
       </Container>

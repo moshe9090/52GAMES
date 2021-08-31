@@ -8,25 +8,25 @@ export const navbar = {
     {
       id: 1,
       label: 'Home',
-      path: '#home',
+      path: '#homex',
       offset: '84',
     },
     {
       id: 2,
       label: 'About Us',
-      path: '#features',
+      path: '#About Us',
       offset: '81',
     },
     // {
-    //   id: 3,
-    //   label: 'Testimonial',
-    //   path: '#testimonial',
-    //   offset: '81',
-    // },
+    // //   id: 3,
+    // //   label: 'Testimonial',
+    // //   path: '#testimonial',
+    // //   offset: '81',
+    // // },
     {
       id: 4,
-      label: 'Contact us',
-      path: '#pricing',
+      label: 'Contactus',
+      path: '#coantactus',
       offset: '81',
     },
     // {
@@ -470,7 +470,7 @@ export const footer = {
       icon: group,
       title: 'About Us',
       description:
-        'We are a Small Gaming company in Israel we make light and fun games to pass your time when you get stuck somewhere :)\n .',
+        ' At 52GAMES, we’ve always believed that games are art. They have the power to communicate ideas and tell stories. They can change the way we think, reflect our cultures, and move us. .',
     },
     // {
     //   id: 3,

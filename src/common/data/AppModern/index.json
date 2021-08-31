@@ -11,19 +11,19 @@
 			{
 				"id": 2,
 				"label": "About Us",
-				"path": "#features",
+				"path": "#About us",
 				"offset": "81"
 			},
 			{
 				"id": 3,
 				"label": "Contact us",
-				"path": "#testimonial",
+				"path": "#coantactus",
 				"offset": "81"
 			},
 			{
 				"id": 4,
 				"label": "",
-				"path": "#pricing",
+				"path": "#",
 				"offset": "81"
 			},
 			{

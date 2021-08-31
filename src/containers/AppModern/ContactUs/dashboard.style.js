@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
-import {margin} from "polished";
+import React from "react";
+import {formatAmpMessages} from "next/dist/build/output";
 
 
-const DashboardWrapper = styled.section`
-  padding-top: 120px;
+const ContactusWrapper = styled.section`
+  padding-top: 100px;
   padding-bottom: 240px;
   background-size: cover;
   background-position: center;
@@ -12,13 +13,14 @@ const DashboardWrapper = styled.section`
   background-attachment: fixed;
   min-height: 100%;
   position: relative;
-  background-color: #fff;
   
   /* background-image: linear-gradient(
 		to bottom,
 		#fff 35%,
 		rgb(244, 246, 250) 100%
 	); */
+  
+  
   @media (max-width: 1800px) {
     padding-bottom: 180px;
   }
@@ -51,8 +53,6 @@ const DashboardWrapper = styled.section`
     top: 0;
     left: 0;
     overflow: hidden;
-    
-    
     @media (max-width: 767px) {
       display: none;
     }
@@ -71,16 +71,13 @@ const DashboardWrapper = styled.section`
     @media (max-width: 1024px) {
       margin-top: 25px;
     }
-    
+
     @media (max-width: 767px) {
       margin-bottom: 30px;
     }
     @media (max-width: 767px) {
       margin-top: 0px;
     }
- 
-    
-    
     .reusecore__button {
       border-radius: 5px;
       font-weight: 500;
@@ -93,24 +90,17 @@ const DashboardWrapper = styled.section`
     }
   }
   .subtitle {
-    font-size: 50px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 12px;
     letter-spacing: 1.5px;
     color: #d1397c;
     text-transform: uppercase;
-    
-    
   }
-  
-  .
 `;
 
-
-
-
-const DashboardObject = styled.div`
+const ContactusObject = styled.div`
   position: absolute;
   width: 50%;
   height: 100%;
@@ -118,70 +108,28 @@ const DashboardObject = styled.div`
   right: 0;
   display: flex;
   align-items: center;
-  padding: 1px 120px;
-  margin: 30px 100px;
   
   
   
-
-  ,  
   @media (max-width: 990px) {
     top: 50px;
   }
   @media (max-width: 767px) {
-    display: none; 
+    display: none;
   }
+  
   .dashboardWrapper {
     height: 100%;
-    width: 50%;
-    padding: 120px;
-    border: #99d3ff;
-    margin-bottom: 200px;
-    letter-spacing: 1.5px;
-    color: #d1397c;
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 50px;
     
     
-    
-    
-    
-    
-    button {
-      border: none;
-      padding: 1.1em 6.5em;
-      background: #ffffff;
-      minWidth: ['120px', '120px', '120px', '156px'],
-      fontWeight: '500',
-      transition: all 0.3s ease;
-      color: #ffffff;
-      border-color: #d1397c;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 30px;
-      padding-right: 30px;
-      border-radius: 5px;
-      font: 400 13.3333px Arial;
-      text-transform: uppercase;
+  }
 
-    }
-
-
-    button:hover {
-      background: #3E3E3E;
-    }
-
-   
-    
-    
-    
-  } 
 `;
 
 
 
-export { DashboardObject };
 
-export default DashboardWrapper;
+
+export { ContactusObject };
+
+export default ContactusWrapper;

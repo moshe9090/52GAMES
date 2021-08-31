@@ -18,6 +18,8 @@ import PricingPolicy from "../containers/AppModern/PricingPolicy";
 import TeamPortfolio from "../containers/AppModern/TeamPortfoilo";
 import Newsletter from "../containers/AppModern/Newsletter";
 import Footer from "../containers/AppModern/Footer";
+import ContactusWrapper from "../containers/AppModern/ContactUs/dashboard.style";
+import ContactusSection from "../containers/AppModern/ContactUs";
 
 const Main = () => {
   return (
@@ -42,18 +44,19 @@ const Main = () => {
           <GlobalStyle />
           {/* end of global and reset style */}
 
-          {/* start app classic landing */}
+           {/*start app classic landing */}
           <AppWrapper>
             <Sticky top={0} innerZ={9999} activeClass="sticky-active">
               <Navbar />
             </Sticky>
             <ContentWrapper>
               <Banner />
-              {/*<Features />*/}
               {/*<AppSlider />*/}
               <DashboardFeatures />
+              {/*<ContactusWrapper/>*/}
+              {/*<ContactusSection/>*/}
               {/*<Testimonial />*/}
-              {/*<ProductSlide />*/}
+              {/*/!*<ProductSlide />*!/*/}
               {/*<DesignedAndBuilt />*/}
               {/*<PricingPolicy />*/}
               {/*<TeamPortfolio />*/}

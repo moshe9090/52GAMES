@@ -12,3 +12,4 @@ export default function CustomApp({ Component, pageProps }) {
     </Modal>
   );
 }
+

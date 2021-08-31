@@ -25,6 +25,7 @@ const Navbar = () => {
     mobileMenu: false,
   });
 
+
   const searchRef = useRef(null);
   useOnClickOutside(searchRef, () =>
     setState({ ...state, searchToggle: false })
@@ -98,7 +99,7 @@ const Navbar = () => {
           title="App Modern"
           className="logo-alt"
         />
-        {/* end of logo */}
+         {/*end of logo*/}
 
         <MenuArea className={state.searchToggle ? 'active' : ''}>
           <ScrollSpyMenu className="menu" menuItems={navMenu} offset={-84} />
@@ -122,8 +123,9 @@ const Navbar = () => {
           {/*</Search>*/}
           {/* end of search */}
 
-          <AnchorLink href="#trail" offset={84}>
-          </AnchorLink>
+          {/*<AnchorLink href="#About" offset={84}>*/}
+          {/*  f*/}
+          {/*</AnchorLink>*/}
 
           <Button
             className="menubar"
@@ -154,19 +156,19 @@ const Navbar = () => {
           >
             {navMenu.map((menu, index) => (
               <li key={`menu_key${index}`}>
-                <AnchorLink
-                  href={menu.path}
-                  offset={menu.offset}
-                  onClick={handleRemoveMenu}
-                >
-                  {menu.label}
-                </AnchorLink>
+                {/*<AnchorLink*/}
+                {/*  href={menu.path}*/}
+                {/*  offset={menu.offset}*/}
+                {/*  onClick={handleRemoveMenu}*/}
+                {/*>*/}
+                {/*  {menu.label}*/}
+                {/*</AnchorLink>*/}
               </li>
             ))}
           </Scrollspy>
         </Container>
       </MobileMenu>
-      {/* end of mobile menu */}
+       {/*end of mobile menu*/}
     </NavbarWrapper>
   );
 };

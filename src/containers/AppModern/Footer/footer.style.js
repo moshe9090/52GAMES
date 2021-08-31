@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { themeGet } from '@styled-system/theme-get';
 
 const FooterArea = styled.footer`
-  padding: 96px 0 60px;
+  padding: 96px  60px;
   background-color: ${themeGet('colors.secondary', '#09142E')};
   @media only screen and (max-width: 1366px) {
     padding-top: 80px;
@@ -26,7 +26,8 @@ export const WidgetArea = styled.div`
   width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
+  margin-left: 200px;
+  
   .col {
     width: calc(100% / 3);
     text-align: center;

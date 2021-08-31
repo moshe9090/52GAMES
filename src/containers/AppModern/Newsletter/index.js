@@ -10,6 +10,7 @@ import Container from 'common/components/UI/Container';
 import NewsletterWrapper, { ContactFormWrapper } from './newsletter.style';
 
 const Newsletter = ({
+  showtext =true,
   sectionWrapper,
   textArea,
   buttonArea,
@@ -19,14 +20,22 @@ const Newsletter = ({
 }) => {
   return (
     <Box {...sectionWrapper} as="section">
-      <NewsletterWrapper>
+      <NewsletterWrapper >
         <Container>
           <Box {...textArea}>
-            <Heading content="Subscribe our newsletter" {...title} />
-            <Text
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"
-              {...description}
-            />
+
+            {/*{showtext==true? (*/}
+            {/*    <Heading  content="Subscribe our newsletter" {...title} />*/}
+            {/*      ) : (*/}
+            {/*    <Heading  content="Subscribe our newsletter" {...title}  />*/}
+            {/*)}*/}
+
+
+            {/*<Heading  content="Subscribe our newsletter" {...title} />*/}
+            {/*<Text*/}
+            {/*  content="Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore"*/}
+            {/*  {...description}*/}
+            {/*/>*/}
           </Box>
           <Box {...buttonArea}>
             <ContactFormWrapper>
@@ -37,7 +46,7 @@ const Newsletter = ({
                 isMaterial={true}
                 className="email_input"
               />
-              <Button {...buttonStyle} title="Get access" />
+              <Button {...buttonStyle} title="Contact Us" />
             </ContactFormWrapper>
           </Box>
         </Container>
